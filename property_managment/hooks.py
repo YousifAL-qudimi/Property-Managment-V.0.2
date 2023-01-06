@@ -179,3 +179,12 @@ user_data_fields = [
 #	"property_managment.auth.validate"
 # ]
 
+
+
+doctype_js = {"Territory" : "public/js/territory.js"}
+
+
+override_doctype_class = {
+	"Territory": "property_managment.property_company.override.territory.CustomTerritory",
+
+}
